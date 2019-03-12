@@ -1,0 +1,12 @@
+[17:07-2019-02-09]
+NCalc.EvaluationException: mismatched input 'i' expecting ')' at line 1:9
+missing EndOfFile at 'i' at line 1:15
+   at NCalc.Expression.Evaluate()
+   at NadekoBot.Modules.Utility.Utility.CalcCommands.Calculate(String expression)
+   at Discord.Commands.ModuleClassBuilder.<>c__DisplayClass6_0.<<BuildCommand>g__ExecuteCallback|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteInternalAsync(ICommandContext context, Object[] args, IServiceProvider services)
+   at Discord.Commands.CommandInfo.ExecuteAsync(ICommandContext context, IEnumerable`1 argList, IEnumerable`1 paramList, IServiceProvider services)
+------
